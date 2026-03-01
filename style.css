@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f8;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 70px 0;
+}
+
+.header-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    color: #2a5298;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.header h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.header h3 {
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.tagline {
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact span {
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+/* MAIN LAYOUT */
+.main {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    gap: 25px;
+}
+
+/* CARDS */
+.left-card, .right-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.left-card {
+    width: 35%;
+}
+
+.right-card {
+    width: 65%;
+}
+
+/* BLUE BORDER UNDER TITLES */
+.title {
+    border-bottom: 2px solid #2a5298;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #1e3c72;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #e3eafc;
+    padding: 7px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* LANGUAGES */
+.language {
+    margin-bottom: 18px;
+}
+
+.lang-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.bar {
+    background: #ddd;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.fill {
+    height: 8px;
+    background: #2a5298;
+    border-radius: 20px;
+}
+
+/* EDUCATION */
+.edu-year {
+    color: gray;
+    font-size: 14px;
+}
+
+/* LISTS */
+.cert, .interest {
+    padding-left: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+    .main {
+        flex-direction: column;
+    }
+    .left-card, .right-card {
+        width: 100%;
+    }
+}
