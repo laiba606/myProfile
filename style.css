@@ -134,7 +134,7 @@ body {
     .main {
         flex-direction: column;
     }
-    .left-card, .right-card {
-        width: 100%;
+    
     }
+
 }
